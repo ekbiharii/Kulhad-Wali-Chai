@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KULHAD WALI CHAI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+  <div id="loading-screen" role="status" aria-live="polite">
+    <div class="loading-content">
+      <div class="loading-image-container">
+        <img id="loading-img" src="IMG/download.jpg" alt="Chai Loading">
+      </div>
+      <div id="loading-countdown" aria-label="Loading countdown">10</div>
+      <p class="loading-quote">की चाय रखी हो टेबल पर तुम याद पुराने ले आओ हम कह देंगे कल छुट्टी है तुम वह यार पुराने ले आओ</p>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="IMG/chai-is-dope-transparent.png" alt="Kulhad Wali Chai logo">
+      <span>KULHAD WALI CHAI</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Catalog & Menu</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content" data-reveal>
+      <h1>Welcome to Kulhad Chai</h1>
+      <p>Taste the finest Chai and freshly baked delights.</p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+    <div class="hero-cup parallax-item" aria-hidden="true">
+      <img src="IMG/Kulhad chai logo_ kulhad means small Soil pot_.jpg" alt="">
+      <span class="steam steam-one"></span>
+      <span class="steam steam-two"></span>
+      <span class="steam steam-three"></span>
+    </div>
+    <div class="hero-character parallax-item" aria-hidden="true">
+      <img src="animation img/stick-theresign-transparent.png" alt="">
+    </div>
+  </section>
+
+  <!-- Catalog / Menu Section -->
+  <section id="menu" class="menu-section">
+    <h2 data-reveal>Our Menu & Catalog</h2>
+    <div class="menu-filters" role="group" aria-label="Filter menu items">
+      <button type="button" class="filter-btn active" data-filter="all">All</button>
+      <button type="button" class="filter-btn" data-filter="chai-specials">Chai Specials</button>
+      <button type="button" class="filter-btn" data-filter="snacks">Snacks & Bun-Maska</button>
+      <button type="button" class="filter-btn" data-filter="coolers">Coolers</button>
+    </div>
+    <div class="menu-grid">
+      <div class="menu-card" data-category="chai-specials" data-reveal>
+        <h3>Espresso</h3>
+        <p>Rich and bold single-shot dark roasted coffee.</p>
+        <span class="price"> 40 ₹</span>
+      </div>
+      <div class="menu-card" data-category="chai-specials" data-reveal>
+        <h3>Cappuccino</h3>
+        <p>Espresso topped with thick steamed milk foam.</p>
+        <span class="price"> 50 ₹</span>
+      </div>
+      <div class="menu-card" data-category="coolers" data-reveal>
+        <h3>Iced Latte</h3>
+        <p>Chilled espresso over milk and ice cubes.</p>
+        <span class="price"> 55 ₹</span>
+      </div>
+      <div class="menu-card" data-category="snacks" data-reveal>
+        <h3>Butter Croissant</h3>
+        <p>Flaky, fresh-baked French butter pastry.</p>
+        <span class="price"> 40 ₹</span>
+      </div>
+      <div class="menu-card" data-category="snacks" data-reveal>
+        <h3>Chocolate Cake</h3>
+        <p>Rich layer cake with Belgian dark chocolate.</p>
+        <span class="price"> 60 ₹</span>
+      </div>
+      <div class="menu-card" data-category="coolers" data-reveal>
+        <h3>Lassi</h3>
+        <p>Rich, thick, and creamy churned yogurt drink topped with a layer of fresh malai, served chilled in an authentic earthen kulhad.</p>
+        <span class="price"> 60 ₹</span>
+      </div>
+      <div class="menu-card" data-category="snacks" data-reveal>
+        <h3>Avocado Toast</h3>
+        <p>Sourdough bread topped with fresh crushed avocado.</p>
+        <span class="price"> 75 ₹</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2 data-reveal>About Our Café</h2>
+    <p data-reveal>Aura Café is dedicated to serving artisan coffee brewed from ethically sourced beans, paired with freshly baked goods every morning. Drop by for a relaxed atmosphere and great taste.</p>
+  </section>
+
+  <!-- Our Story Section -->
+  <section id="story" class="story-section">
+    <h2 data-reveal>Our Story and Our Legacy</h2>
+    <p data-reveal>Since 1980, Kulhad-wali-chai has been brewing authentic Indian tea, preserving a heritage passed down through generations. Our recipes rely on hand-selected, real Indian spices sourced directly from different regions across the country, bringing together the rich, aromatic flavors of India's diverse spice culture in every sip. We proudly serve our tea in handcrafted clay kulhads—a tradition rooted deep in Indian culture that honors age-old brewing methods while remaining 100% eco-friendly and sustainable. </p>
+  </section>
+
+  <!-- Contact & Info Section -->
+  <section id="contact" class="contact-section">
+    <h2 data-reveal>Contact Us</h2>
+    <div class="contact-container">
+     <div class="contact-form-panel" data-reveal>
+       <div class="contact-header">
+         <p class="eyebrow">Let’s brew your next chai moment</p>
+         <h3 id="contact-form-title">Tell us what you’re craving</h3>
+         <p id="contact-form-copy">We’d love to hear about your chai plans, feedback, or just a warm hello.</p>
+       </div>
+
+       <div class="mood-selector" role="group" aria-label="Reason for contact">
+         <button type="button" class="mood-btn active" data-mood="bulk-order">Bulk Order</button>
+         <button type="button" class="mood-btn" data-mood="franchise">Franchise</button>
+         <button type="button" class="mood-btn" data-mood="feedback">Feedback</button>
+         <button type="button" class="mood-btn" data-mood="hi">Just Saying Hi!</button>
+       </div>
+
+       <div class="kulhad-meter" aria-hidden="true">
+         <div class="kulhad-shell">
+           <div class="kulhad-tea" id="kulhadTea"></div>
+           <div class="kulhad-steam">
+             <span></span>
+             <span></span>
+             <span></span>
+           </div>
+         </div>
+         <div class="meter-label"><span id="meterPercent">0%</span> brewed</div>
+       </div>
+
+       <form id="contactForm" novalidate>
+         <div class="form-field">
+           <input id="customerName" type="text" required>
+           <label for="customerName">Your Name</label>
+         </div>
+
+         <div class="form-field">
+           <input id="customerEmail" type="email" required>
+           <label for="customerEmail">Your Email</label>
+         </div>
+
+         <div class="form-field">
+           <input id="customerPhone" type="tel" required>
+           <label for="customerPhone">Phone Number</label>
+         </div>
+
+         <div class="form-field" id="extraFieldWrap">
+           <input id="extraField" type="text" required>
+           <label id="extraFieldLabel" for="extraField">Event or quantity details</label>
+         </div>
+
+         <div class="form-field textarea-field">
+           <textarea id="customerMessage" rows="4" required></textarea>
+           <label for="customerMessage">Your Message</label>
+         </div>
+
+         <div class="submit-row">
+           <button type="submit" class="btn">Send Message</button>
+           <span class="success-badge">Fresh chai, fresh reply</span>
+         </div>
+       </form>
+
+       <div class="success-announce" id="successAnnounce" aria-live="polite" hidden></div>
+     </div>
+
+     <div class="info" data-reveal>
+       <h3>Café Details</h3>
+       <p>📍 <strong>Address:</strong> Budbud, Sukdal, West Bengal 713403</p>
+       <p>📞 <strong>Phone:</strong> +91 988379920X </p>
+       <p>⏰ <strong>Hours:</strong> Daily from 4:00 PM to 10:00 PM</p>
+       <div class="mini-note">
+         <strong>Our promise:</strong> warm service, fresh tea, and quick follow-up for every chai craving.
+       </div>
+     </div>
+   </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
