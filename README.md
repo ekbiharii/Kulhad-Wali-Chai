@@ -3,6 +3,7 @@
 An interactive, responsive landing page for a traditional "Kulhad Chai" stall. This beautifully designed website showcases the menu with prices, provides location and contact details, and includes a functional contact form—all built with pure HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
+https://ekbiharii.github.io/Kulhad-Wali-Chai
 
 Check out the live version of the page: 
 
